@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github/"Varanjali-Ramavath"/maven-calculator.git'
+                git 'https://github.com/Varanjali-Ramavath/maven-calculator.git'
             }
         }
 
